@@ -7,7 +7,7 @@ process.env.USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 const { Client, Collection } = require("discord.js");
 const { intents, partials }  = require("./utils/intents");
-const config = require("./config");
+const config = require("./config.js.example");
 const chalk  = require("chalk");
 
 // ── Resolve token from .env or config.js ─────────────────
